@@ -160,12 +160,26 @@ else{
 
 
 
+
+// Same as Hawkins
+
+
+    int a, upper;
+scanf("%d",&a);
+
+if (a>-200000000 && a<200000000)
+{
+ printf("%d\n",a);
+}
+
+    
     
 
 
     return 0;
 
 }
+
 
 
 
