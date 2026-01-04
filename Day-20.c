@@ -113,12 +113,40 @@ avarage = (float)sum/5;
 printf("Avarage is %0.2f\n", avarage);
 
     
+
+
+// Travel to Up Side Down
+
+
+    int T;
+scanf("%d",&T);
+
+for(int i = 0;i<T;i++){
+
+int a,b;
+scanf("%d%d", &a,&b);
+
+if(a<b){
+    printf("FIRST\n");
+}
+else if(a>b){
+    printf("SECOND\n");
+}
+ else {
+printf("ANY\n");
+ }
+    
+
+}
+
+
     
 
 
     return 0;
 
 }
+
 
 
 
