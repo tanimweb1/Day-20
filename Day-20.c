@@ -91,12 +91,35 @@ printf("%d\n", numbers[index]);
     printf("Avarage is %0.2f\n", avarage);
 
 
+
+
+    //calculate the sum & avarage  of 10 students math result using array
+
+int math[10], sum=0; 
+float avarage;
+
+for(int i = 0;i<10;i++){
+
+printf("Student [%d] = ", i+1);
+scanf("%d", &math[i]);
+
+}
+
+for(int i = 0; i<10 ;i++){
+    sum = sum + math[i];
+}
+printf("Sum is %d\n", sum);
+avarage = (float)sum/5;
+printf("Avarage is %0.2f\n", avarage);
+
+    
     
 
 
     return 0;
 
 }
+
 
 
 
