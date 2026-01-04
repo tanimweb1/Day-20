@@ -140,12 +140,33 @@ printf("ANY\n");
 }
 
 
+
+
+// Steve the babysitter
+
+
+
+    int x,y,vag;
+scanf("%d%d",&x,&y);
+
+vag = y%x;
+
+if(vag==0){
+    printf("No need");
+}
+else{
+    printf("%d", x-vag);
+}
+
+
+
     
 
 
     return 0;
 
 }
+
 
 
 
