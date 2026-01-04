@@ -173,12 +173,31 @@ if (a>-200000000 && a<200000000)
 }
 
     
+
+
+// Mike & Finished Things S5 E8
+
+
+    int  n;
+scanf("%d",&n);
+
+if(n==4){
+    printf("YES");
+}
+else{
+    printf("NO");
+}
+
+
+
+
     
 
 
     return 0;
 
 }
+
 
 
 
