@@ -71,12 +71,33 @@ printf("%d\n", numbers[index]);
 
 
 
+ // avarage in array
+
+    int numbers[5], sum = 0;
+    float avarage;
+
+    for (int i = 0; i < 5; i++)
+    {
+
+        printf("number[%d] = ", i);
+        scanf("%d", &numbers[i]);
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        sum = sum + numbers[i];
+    }
+    avarage = (float)sum / 5;
+    printf("Avarage is %0.2f\n", avarage);
+
+
     
 
 
     return 0;
 
 }
+
 
 
 
