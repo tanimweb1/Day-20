@@ -46,11 +46,37 @@ scanf("%d", &numbers[index]);
 for(int index=0;index<5;index++){
 printf("%d\n", numbers[index]);
 }
+
+
+
+// Sum of numbers in array
+
+    int numbers[5], sum = 0;
+
+    for (int index = 0; index < 5; index++)
+    {
+
+        printf("number[%d] = ", index);
+        scanf("%d", &numbers[index]);
+    }
+
+    for (int index = 0; index < 5; index++)
+    {
+
+        sum = sum + numbers[index];
+    }
+
+    printf("Sum is %d\n", sum);
+
+
+
+
     
 
 
     return 0;
 
 }
+
 
 
